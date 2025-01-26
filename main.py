@@ -8,7 +8,7 @@ connection = obd.OBD()  # Auto-connects to Bluetooth OBD-II scanner
 # Create the main window
 root = tk.Tk()
 root.title("Car HUD")
-root.attributes('-fullscreen', True)
+root.attributes('-fullscreen', False)
 root.configure(bg='black')
 
 # Labels to display speed and coolant temperature
